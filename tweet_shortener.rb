@@ -9,14 +9,7 @@ def dictionary
   "you" => "u",
   "at" => "@",
   "and" => "&"}
-  
-  tweets.each do |x,y|
-    if (x==item)
-      return y
-    end  
- end
- item
-end 
+end
 
 def word_substituter(tweet)
   tweet_array = tweet.split(" ")
